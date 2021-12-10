@@ -15,12 +15,14 @@
   display: flex;
   padding: 70px 0;
 
+
   .h1 {
     margin-bottom: 51px;
   }
 
   form {
     display: flex;
+    flex: 1;
   }
 }
 
@@ -39,4 +41,5 @@
 }
 .register-form-wrap {
   padding-top: 131px;
+  width: 100%;
 }
