@@ -1,0 +1,14 @@
+.button {
+  border-radius: 14px;
+  background: $button-default-bg-color;
+  font: 500 15px inherit;
+  color: $button-default-text-color;
+  padding: 10px 0 11px;
+  width: 100%;
+
+  &_outline {
+    background: none;
+    color: #595F69;
+    border: 1px solid #E8E9EB;
+  }
+}

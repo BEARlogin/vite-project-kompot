@@ -1,0 +1,13 @@
+.form-input {
+  &__input {
+    border: 1px solid #E8E9EB;
+    border-radius: 14px;
+    font: 400 14px inherit;
+    padding: 11px;
+  }
+  &__label {
+    display: block;
+    color: #8A9099;
+    margin-bottom: 9px;
+  }
+}

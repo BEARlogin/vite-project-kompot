@@ -1,0 +1,42 @@
+@import "reset-css/reset.css";
+@import "common/variables";
+@import "layout";
+@import "styles/common/card";
+@import "styles/common/button";
+@import "styles/common/form-input";
+@import "styles/common/typography";
+.wrapper {
+  height: 100vh;
+  background: #304FFD;
+}
+
+.register-form {
+  width: 600px;
+  display: flex;
+  padding: 70px 0;
+
+  .h1 {
+    margin-bottom: 51px;
+  }
+
+  form {
+    display: flex;
+  }
+}
+
+.register-img {
+  height: 100vh;
+  display: flex;
+  max-width: 580px;
+}
+
+.spacer {
+  height: 27px;
+}
+
+.delimiter {
+  margin: 36px 0 31px;
+}
+.register-form-wrap {
+  padding-top: 131px;
+}
