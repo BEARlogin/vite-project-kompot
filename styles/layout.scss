@@ -5,3 +5,15 @@
   margin: 0 auto;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px)  {
+  .container {
+    max-width: 912px;
+    padding: 0 56px;
+  }
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}

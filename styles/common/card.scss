@@ -2,7 +2,21 @@
   background: #fff;
   border-radius: 20px;
   display: flex;
-  padding: 0 100px 27px;
+  padding: 0 40px 27px;
   flex-direction: column;
   justify-content: space-between;
+
+  &__body {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px)  {
+  .card {
+    padding: 0 30px 27px;
+  }
 }

@@ -5,16 +5,17 @@
 @import "styles/common/button";
 @import "styles/common/form-input";
 @import "styles/common/typography";
+@import "styles/common/delimiter";
 .wrapper {
   height: 100vh;
   background: #304FFD;
 }
 
 .register-form {
-  width: 600px;
   display: flex;
   padding: 70px 0;
-
+  flex: 1;
+  max-width: 600px;
 
   .h1 {
     margin-bottom: 51px;
@@ -30,16 +31,42 @@
   height: 100vh;
   display: flex;
   max-width: 580px;
+  img {
+    max-width: 100%;
+  }
 }
 
 .spacer {
-  height: 27px;
+  width: 100%;
 }
 
-.delimiter {
-  margin: 36px 0 31px;
-}
 .register-form-wrap {
-  padding-top: 131px;
   width: 100%;
+}
+
+html {
+  overflow: hidden;
+}
+
+
+.register-delimiter {
+  flex-basis: 60px;
+}
+
+@media screen and (max-width: 1024px)  {
+  .register-img {
+    max-width: 408px;
+  }
+  .register-form {
+    max-width: 430px;
+  }
+  .register-delimiter {
+    flex-basis: 40px;
+  }
+
+  .forgot-password {
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
 }

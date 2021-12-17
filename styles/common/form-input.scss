@@ -4,11 +4,41 @@
     border-radius: 14px;
     font: 400 14px inherit;
     padding: 11px;
-    width: 100%;
+    width: calc(100% - 22px);
+    outline: none;
   }
+
   &__label {
     display: block;
     color: #8A9099;
     margin-bottom: 9px;
+  }
+
+  &__checkbox {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+
+    &:after {
+      content: "";
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      display: block;
+      background: #fff;
+      border: 1px solid  #304FFD;
+      margin-right: 8px;
+    }
+
+    &:checked {
+      &:after {
+        background: #304FFD url("../../assets/img/checkbox.svg") center 2px no-repeat;
+      }
+    }
+  }
+
+  &__checkbox-label {
+    display: flex;
+    color: #595F69;
   }
 }

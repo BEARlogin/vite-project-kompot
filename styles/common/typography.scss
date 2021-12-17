@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 .body {
   font: 400 14px $default-font-family;
 }
@@ -5,5 +7,19 @@
 .h1 {
   font: 500 28px $default-font-family;
   line-height: 36px;
+  text-align: center;
+}
+
+.link {
+  color: #304FFD;
+  text-decoration: none;
+  font-family: $default-font-family;
+}
+
+.body-light {
+  color: #8A9099;
+}
+
+.text-center {
   text-align: center;
 }
