@@ -18,7 +18,7 @@
         </div>
         <div class="register-form">
             <form>
-                <div class="card register-form-wrap">
+                <div class="card register-form__card">
                     <div class="card__body">
                         <div class="card__header">
                             <h1 class="h1">Авторизация</h1>
@@ -28,16 +28,14 @@
                             <hr class="delimiter__line"/>
                             <div class="delimiter__text">Или через электронную почту</div>
                         </div>
-                        <div class="form-input">
+                        <div class="form-input register-form__form-input">
                             <label class="form-input__label">Email</label>
                             <input class="form-input__input" value="cooper@example.com"/>
                         </div>
-                        <div class="spacer" style="height: 30px;"></div>
-                        <div class="form-input">
+                        <div class="form-input register-form__form-input">
                             <label class="form-input__label">Пароль</label>
                             <input class="form-input__input" type="password" value="123456"/>
                         </div>
-                        <div class="spacer" style="height: 25px;"></div>
                         <div class="space-between" style="flex-wrap: wrap;">
                             <div class="form-input">
                                 <label class="form-input__checkbox-label">
@@ -45,12 +43,8 @@
                                 </label>
                             </div>
                             <a class="link forgot-password" href="#">Забыли пароль?</a>
-                            <div class="spacer" style="height: 31px;"></div>
-                            <button class="button">Войти</button>
-                            <div class="spacer" style="height: 31px;"></div>
+                            <button class="button register-form__button">Войти</button>
                         </div>
-
-
                     </div>
                     <div class="card__footer text-center">
                         <span class="body-light">Ещё нет аккаунта?</span> <a class="link"
